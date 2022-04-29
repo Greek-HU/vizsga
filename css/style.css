@@ -78,7 +78,7 @@ nav li {
     border-radius: 19px;
 }
 nav li:hover{
-    background-color: white;
+    background-color: rgb(36, 22, 22);
 }
 nav a, nav div{
     display:block;

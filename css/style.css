@@ -108,6 +108,9 @@ nav>ul>li:nth-child(2n):hover{
 .nav-stat>li:nth-child(odd) {
     background-color: white;
 }
+.nav-stat>li:nth-child(odd):hover{
+    background-color: rgb(36, 22, 22);
+}
 .conteiner {
     position: relative;
 }

@@ -75,8 +75,10 @@ nav ul{
     
 }
 nav li {
-    border-radius: 19px;    
-
+    border-radius: 19px;
+}
+nav li:hover{
+    background-color: white;
 }
 nav a, nav div{
     display:block;
@@ -99,6 +101,9 @@ nav .conteiner::after {
 }
 nav>ul>li:nth-child(2n) {
     background-color: white;
+}
+nav>ul>li:nth-child(2n):hover{
+    background-color: rgb(36, 22, 22);
 }
 .nav-stat>li:nth-child(odd) {
     background-color: white;

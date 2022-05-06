@@ -51,14 +51,19 @@ header a {
 }
 #navicon {
     display: inline;
-    background-color: rgb(199, 194, 194);
+    background-color: rgb(124, 120, 120);
     color: white;
     border-radius: 45%;
     padding: 10px;
     font-size: 30px;
     float: left;
     z-index: 2;
+    cursor: pointer;
     margin-top: 5%;
+}
+#navicon:hover{
+    background-color: rgb(71, 133, 35);
+
 }
 nav {
     position: absolute;
